@@ -2,7 +2,13 @@
   "name": "abhas-portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "5.7.1",
+    "node": "9.10.1"
+  },
   "dependencies": {
+    "jquery": "^3.3.1",
+    "node-sass": "^4.9.4",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "2.0.5"
