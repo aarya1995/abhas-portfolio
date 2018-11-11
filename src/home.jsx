@@ -166,15 +166,13 @@ class Home extends Component {
 
   renderParallaxSection = () => {
     return (
-        <section className="ptb-100 funfact_bg">
-            <div class="fanfact_area bg_overlay bg_image parallax_cover parallax_bg">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-10 col-md-10 col-sm-10 offset-md-1">
-                            <div className="single-fanfact">
-                                <h4 className="parallax-section-quote"><span className="fa fa-quote-left quote-icon"></span>&nbsp;Design is not just what it looks like and feels like. Design is how it works.&nbsp;<span className="fa fa-quote-right quote-icon"></span></h4>
-                                <p>- Steve Jobs</p>
-                            </div>
+        <section className="fanfact_area ptb-100 funfact_bg bg_image bg_overlay parallax_bg">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-10 col-md-10 col-sm-10 offset-md-1">
+                        <div className="single-fanfact">
+                            <h4 className="parallax-section-quote"><span className="fa fa-quote-left quote-icon"></span>&nbsp;Design is not just what it looks like and feels like. Design is how it works.&nbsp;<span className="fa fa-quote-right quote-icon"></span></h4>
+                            <p>- Steve Jobs</p>
                         </div>
                     </div>
                 </div>
