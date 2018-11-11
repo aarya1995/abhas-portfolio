@@ -324,19 +324,12 @@ cite {
 
   .parallax_bg {
     background-image: url('images/working.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 423px;
   }
 }
 
 @media(min-width: 500px) {
   .hide-on-desktop {
     display: none;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
   .parallax_bg {
@@ -386,6 +379,10 @@ cite {
 
 .page_cover {
   height: 785px;
+}
+
+.parallax_cover {
+  height: 370px;
 }
 
 .bg_overlay {
@@ -1926,6 +1923,7 @@ textarea {
   .page_cover {
     height: 620px;
   }
+
   .home_text_block {
     margin-top: 0;
     margin-bottom: 90px;
@@ -1975,6 +1973,11 @@ textarea {
   .page_cover {
     height: 550px;
   }
+
+  .parallax_cover {
+    height: 400px;
+  }
+
   .site_logo {
     font-size: 24px;
     margin-top: 3px;
@@ -2006,6 +2009,11 @@ textarea {
   .page_cover {
     height: 500px;
   }
+
+  .parallax_cover {
+    height: 370px;
+  }
+
   .home_wrapper_info {
     height: calc(100% - 30px);
   }
@@ -2822,7 +2830,7 @@ textarea {
 .single-fanfact {
   color: #fff;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 10%;
 }
 
 .single-fanfact > span {
