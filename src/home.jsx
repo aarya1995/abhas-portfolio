@@ -15,7 +15,7 @@ class Home extends Component {
                 { this.renderAboutSection() }
                 { this.renderParallaxSection() }
                 { this.renderWorkSection() }
-                { this.renderBlogSection() }
+                {/* { this.renderBlogSection() } */}
             </div>
             <div id="section_scroller_button">
                 <span className="fa fa-angle-down"></span>

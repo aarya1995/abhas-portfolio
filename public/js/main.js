@@ -213,24 +213,24 @@
         /* ---------------------------------------------
             10. Magnific Popup
         --------------------------------------------- */
-        magnific_popup: function () {
-            $('.work_item').magnificPopup({
-                type: 'image',
-                removalDelay: 300,
-                mainClass: 'mfp-with-zoom',
-                gallery: {
-                    enabled: true
-                },
-                zoom: {
-                    enabled: true, 
-                    duration: 300, 
-                    easing: 'ease-in', 
-                    opener: function (openerElement) {
-                        return openerElement.is('img') ? openerElement : openerElement.find('img');
-                    }
-                }
-            });
-        },
+        // magnific_popup: function () {
+        //     $('.work_item').magnificPopup({
+        //         type: 'image',
+        //         removalDelay: 300,
+        //         mainClass: 'mfp-with-zoom',
+        //         gallery: {
+        //             enabled: true
+        //         },
+        //         zoom: {
+        //             enabled: true, 
+        //             duration: 300, 
+        //             easing: 'ease-in', 
+        //             opener: function (openerElement) {
+        //                 return openerElement.is('img') ? openerElement : openerElement.find('img');
+        //             }
+        //         }
+        //     });
+        // },
     
         /* ---------------------------------------------
          function initializ
