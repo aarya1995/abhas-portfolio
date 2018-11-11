@@ -166,7 +166,7 @@ class Home extends Component {
 
   renderParallaxSection = () => {
     return (
-        <section className="fanfact_area ptb-100 funfact_bg bg_image bg_overlay" style={{backgroundImage:'url(' + require('./images/parallax-bg.jpg') + ')'}}>
+        <section className="fanfact_area ptb-100 funfact_bg bg_image bg_overlay parallax_bg">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-10 col-md-10 col-sm-10 offset-md-1">

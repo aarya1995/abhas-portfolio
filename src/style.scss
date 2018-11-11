@@ -321,11 +321,19 @@ cite {
   .hide-on-mobile {
     display: none;
   }
+
+  .parallax_bg {
+    background-image: url('images/working.jpg');
+  }
 }
 
 @media(min-width: 500px) {
   .hide-on-desktop {
     display: none;
+  }
+
+  .parallax_bg {
+    background-image: url('images/parallax-bg.jpg');
   }
 }
 
