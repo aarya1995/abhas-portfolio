@@ -325,6 +325,10 @@ cite {
   .hide-on-mobile {
     display: none;
   }
+
+  .nextdoor {
+    background-image: url('./images/nd-house-mobile.jpg');
+  }
 }
 
 @media(min-width: 500px) {
