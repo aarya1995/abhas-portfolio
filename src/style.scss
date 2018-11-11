@@ -319,23 +319,11 @@ cite {
 
 .parallax_bg {
   background-image: url('images/parallax-bg.jpg');
-  -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 @media(max-width: 500px) {
   .hide-on-mobile {
     display: none;
-  }
-
-  .parallax_bg {
-    height: 422px;
   }
 }
 
@@ -345,6 +333,10 @@ cite {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  /* [11.2 FanFact Area] */
+  .fanfact_area {
+    background-attachment: fixed;
   }
 }
 
@@ -2816,11 +2808,6 @@ textarea {
   content: "";
   left: 4px;
   position: absolute;
-}
-
-/* [11.2 FanFact Area] */
-.fanfact_area {
-  // background-attachment: fixed;
 }
 
 .single-fanfact {
