@@ -324,12 +324,18 @@ cite {
 
   .parallax_bg {
     background-image: url('images/working.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
 @media(min-width: 500px) {
   .hide-on-desktop {
     display: none;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .parallax_bg {
@@ -366,7 +372,7 @@ cite {
 .bg_image {
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .pos-abs {
