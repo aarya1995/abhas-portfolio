@@ -84,7 +84,6 @@ class Home extends Component {
   renderHeader = () => {
     return (
         <section id="home" className="section_scroll welcome_area" data-scroll-index="0">
-            
             <div className="welcome_video_area bg_overlay page_cover"></div>
             
             <div className="home_wrapper_info">

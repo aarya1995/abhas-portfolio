@@ -203,12 +203,6 @@ cite {
   font-size: 12px;
 }
 
-// set up media break points
-.portfolio-row {
-  // margin-bottom: 80px;
-}
-
-// set up media break points
 .portfolio-col {
   margin-bottom: 60px;
 }
@@ -310,11 +304,11 @@ cite {
 /* mobile responsive CSS */
 @media(max-width: 746px){
   .portfolio-item-container {
-    width: 370px;
+    width: 345px;
   }
 
   .portfolio-item {
-    width: 370px;
+    width: 345px;
     height: 320px;
   }
 
@@ -1959,7 +1953,7 @@ textarea {
     margin-top: 3px;
   }
   .site_logo > span {
-    font-size: 34px;
+    font-size: 24px;
   }
   .site_navigation {
     padding: 8px 0;
@@ -3104,7 +3098,7 @@ textarea {
     margin-bottom: 20px;
   }
   .footer_description .footer_logo > span {
-    font-size: 46px;
+    font-size: 36px;
   }
 }
 
