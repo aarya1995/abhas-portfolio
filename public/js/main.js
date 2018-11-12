@@ -55,15 +55,15 @@
             01. Sticky Header
         --------------------------------------------- */
         stickyHeader: function() {
-            if ($('#sticky_header').length) {
-                var stickyMenu = $('.site_navigation').clone().appendTo('#sticky_header');
+            if ($('.sticky_header_home').length) {
+                var stickyMenu = $('.site_navigation').clone().appendTo('.sticky_header_home');
                 $(window).on('scroll', function() {
                     var w = $(window).width();
                     if (w > 991) {
                         if ($(this).scrollTop() > 350) {
-                            $('#sticky_header').slideDown(500);
+                            $('.sticky_header_home').slideDown(500);
                         } else {
-                            $('#sticky_header').slideUp(500);
+                            $('.sticky_header_home').slideUp(500);
                         }
                     }
                 });

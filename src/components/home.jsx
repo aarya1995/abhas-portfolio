@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './css/font-awesome.min.css';
-import './css/flaticon.css';
-import './css/plugins.css';
-import './style.scss';
-import ProfilePic from './images/profile_pic.jpeg';
+import '../css/font-awesome.min.css';
+import '../css/flaticon.css';
+import '../css/plugins.css';
+import '../style.scss';
+import ProfilePic from '../images/profile_pic.jpeg';
 
 class Home extends Component {
   render() {
@@ -76,7 +76,7 @@ class Home extends Component {
             </div>
         </div>
     </header>  
-    <div id="sticky_header"></div>
+    <div id="sticky_header" className="sticky_header_home"></div>
     </div>
     );
   };
@@ -85,7 +85,7 @@ class Home extends Component {
     return (
         <section id="home" className="section_scroll welcome_area" data-scroll-index="0">
             <div className="welcome_video_area bg_overlay page_cover hide-on-mobile"></div>
-            <div class="bg_overlay bg_image page_cover hide-on-desktop" style={{backgroundImage:'url(' + require('./images/golden-gate-bridge.jpg') + ')'}}></div>
+            <div class="bg_overlay bg_image page_cover hide-on-desktop" style={{backgroundImage:'url(' + require('../images/golden-gate-bridge.jpg') + ')'}}></div>
             
             <div className="home_wrapper_info">
                 <div className="container">
@@ -212,6 +212,7 @@ class Home extends Component {
                             </div>
                     </div>
                     <div className="col-md-6 portfolio-col">
+                            <a href="/meeshquest">
                             <div className="portfolio-item-container">
                                 <div className="work_thumb portfolio-item meeshquest work_item">
                                     <div className="work_hover_mask">
@@ -227,6 +228,7 @@ class Home extends Component {
                                     <p>Data Structures capstone project 2016</p>
                                 </span>
                             </div>
+                            </a>
                     </div>
                 </div>
 
