@@ -1,5 +1,6 @@
 import React from 'react';
 import Resume from '../documents/abhas_resume_2017.pdf';
+import ReactGA from 'react-ga';
 
 const NavBarWork = () => (
     <header id="header" className="site_header">
@@ -45,5 +46,14 @@ const NavBarWork = () => (
             </div>
         </header>
 );
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-130172840-1');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+}
+
+function componentDidMount() {
+    initializeReactGA();
+}
 
 export default NavBarWork;

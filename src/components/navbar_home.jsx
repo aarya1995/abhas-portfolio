@@ -1,5 +1,6 @@
 import React from 'react';
 import Resume from '../documents/abhas_resume_2017.pdf';
+import ReactGA from 'react-ga';
 
 const NavBarHome = () => (
     <div>
@@ -46,5 +47,14 @@ const NavBarHome = () => (
     <div id="sticky_header" className="sticky_header_home"></div>
     </div>
 );
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-130172840-1');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+}
+
+function componentDidMount() {
+    initializeReactGA();
+}
 
 export default NavBarHome;

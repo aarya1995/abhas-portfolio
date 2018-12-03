@@ -43,7 +43,7 @@ class Home extends Component {
     return (
         <section id="home" className="section_scroll welcome_area" data-scroll-index="0">
             <div className="welcome_video_area bg_overlay page_cover hide-on-mobile"></div>
-            <div class="bg_overlay bg_image page_cover hide-on-desktop" style={{backgroundImage:'url(' + require('../images/golden-gate-bridge.jpg') + ')'}}></div>
+            <div className="bg_overlay bg_image page_cover hide-on-desktop" style={{backgroundImage:'url(' + require('../images/golden-gate-bridge.jpg') + ')'}}></div>
             
             <div className="home_wrapper_info">
                 <div className="container">

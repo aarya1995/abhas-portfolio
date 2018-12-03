@@ -15,7 +15,6 @@ import KwikNews from './components/kwiknews';
 import * as serviceWorker from './serviceWorker';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 
-
 const routing = (
     <Router>
         <div>
