@@ -158,8 +158,8 @@ class Home extends Component {
                                 <div className="work_thumb portfolio-item nextdoor work_item">
                                     <div className="work_hover_mask">
                                         <div className="mask_container text-center">
-                                            <h3>web design</h3>
-                                            <p>Work description here</p>
+                                            <h3>i18n config on iOS</h3>
+                                            <p>@ Nextdoor 2018</p>
                                         </div>
                                         <span className="fa fa-picture-o"></span>
                                     </div>
@@ -177,8 +177,8 @@ class Home extends Component {
                                 <div className="work_thumb portfolio-item meeshquest work_item">
                                     <div className="work_hover_mask">
                                         <div className="mask_container text-center">
-                                            <h3>web design</h3>
-                                            <p>Work description here</p>
+                                            <h3>MeeshQuest</h3>
+                                            <p>Data Structures capstone project 2016</p>
                                         </div>
                                         <span className="fa fa-picture-o"></span>
                                     </div>
@@ -199,8 +199,8 @@ class Home extends Component {
                                 <div className="work_thumb portfolio-item imdb work_item">
                                     <div className="work_hover_mask">
                                         <div className="mask_container text-center">
-                                            <h3>web design</h3>
-                                            <p>Work description here</p>
+                                            <h3>IMDB Movie Dataset Analysis</h3>
+                                            <p>Data science project 2017</p>
                                         </div>
                                         <span className="fa fa-picture-o"></span>
                                     </div>
@@ -240,8 +240,8 @@ class Home extends Component {
                                 <div className="work_thumb portfolio-item peds work_item">
                                     <div className="work_hover_mask">
                                         <div className="mask_container text-center">
-                                            <h3>web design</h3>
-                                            <p>Work description here</p>
+                                            <h3>PEDS</h3>
+                                            <p>Presidential Election Database System 2016</p>
                                         </div>
                                         <span className="fa fa-picture-o"></span>
                                     </div>
@@ -259,8 +259,8 @@ class Home extends Component {
                                 <div className="work_thumb portfolio-item flutter work_item">
                                     <div className="work_hover_mask">
                                         <div className="mask_container text-center">
-                                            <h3>web design</h3>
-                                            <p>Work description here</p>
+                                            <h3>Flutter</h3>
+                                            <p>Inventory management system 2017</p>
                                         </div>
                                         <span className="fa fa-picture-o"></span>
                                     </div>
@@ -281,8 +281,8 @@ class Home extends Component {
                                 <div className="work_thumb portfolio-item aqua work_item">
                                     <div className="work_hover_mask">
                                         <div className="mask_container text-center">
-                                            <h3>web design</h3>
-                                            <p>Work description here</p>
+                                            <h3>Aqua</h3>
+                                            <p>Hotel management software 2017</p>
                                         </div>
                                         <span className="fa fa-picture-o"></span>
                                     </div>
@@ -300,8 +300,8 @@ class Home extends Component {
                                 <div className="work_thumb portfolio-item wecook work_item">
                                     <div className="work_hover_mask">
                                         <div className="mask_container text-center">
-                                            <h3>web design</h3>
-                                            <p>Work description here</p>
+                                            <h3>WeCook</h3>
+                                            <p>CTO/Co-Founder 2015</p>
                                         </div>
                                         <span className="fa fa-picture-o"></span>
                                     </div>
@@ -322,8 +322,8 @@ class Home extends Component {
                                 <div className="work_thumb portfolio-item telenix work_item">
                                     <div className="work_hover_mask">
                                         <div className="mask_container text-center">
-                                            <h3>web design</h3>
-                                            <p>Work description here</p>
+                                            <h3>Telenix</h3>
+                                            <p>Integrated job application and monitoring tools 2015</p>
                                         </div>
                                         <span className="fa fa-picture-o"></span>
                                     </div>
@@ -341,8 +341,8 @@ class Home extends Component {
                                 <div className="work_thumb portfolio-item kwiknews work_item">
                                     <div className="work_hover_mask">
                                         <div className="mask_container text-center">
-                                            <h3>web design</h3>
-                                            <p>Work description here</p>
+                                            <h3>KwikNews</h3>
+                                            <p>RSS reader/aggregator to discover interesting news 2014</p>
                                         </div>
                                         <span className="fa fa-picture-o"></span>
                                     </div>
@@ -363,8 +363,8 @@ class Home extends Component {
                                 <div className="work_thumb portfolio-item hirekeep work_item">
                                     <div className="work_hover_mask">
                                         <div className="mask_container text-center">
-                                            <h3>web design</h3>
-                                            <p>Work description here</p>
+                                            <h3>HireKeep</h3>
+                                            <p>matching sales candidates with companies 2015</p>
                                         </div>
                                         <span className="fa fa-picture-o"></span>
                                     </div>
@@ -382,8 +382,8 @@ class Home extends Component {
                                 <div className="work_thumb portfolio-item fitness44 work_item">
                                     <div className="work_hover_mask">
                                         <div className="mask_container text-center">
-                                            <h3>web design</h3>
-                                            <p>Work description here</p>
+                                            <h3>Fitness44</h3>
+                                            <p>Fitness consulting services 2015</p>
                                         </div>
                                         <span className="fa fa-picture-o"></span>
                                     </div>
