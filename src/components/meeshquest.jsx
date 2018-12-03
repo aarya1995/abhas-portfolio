@@ -29,7 +29,7 @@ class Meeshquest extends Component {
                             </p>
                             <img className="img-responsive quadtree2 portfolio-img" src={require( "../images/quadtree.png") } />
                             <p className="project-text">
-                                Let's imagine our quadtrees as a representation of a spatial map, where each node represents a region. If we insert a city, then that point will occupy a region within the map. Once we insert a second city, then the key space will be recursively divided into 4 regions until the two cities no long occupy the same quadrant <small><i>(**By the definition of <a class="peds-link" href="https://wiki.cs.umd.edu/cmsc420/index.php?title=PR_Quadtree">PR Quadtrees</a>)</i></small>.  
+                                Let's imagine our quadtrees as a representation of a spatial map, where each node represents a region. If we insert a city, then that point will occupy a region within the map. Once we insert a second city, then the key space will be recursively divided into 4 regions until the two cities no long occupy the same quadrant <small><i>(**By the definition of <a className="peds-link" href="https://wiki.cs.umd.edu/cmsc420/index.php?title=PR_Quadtree">PR Quadtrees</a>)</i></small>.  
                             </p>
                             <img className="img-responsive quadtree3 portfolio-img" src={require( "../images/quadtree2.png") } />
                             <p className="project-text">
@@ -37,7 +37,7 @@ class Meeshquest extends Component {
                             </p>
                             <img className="img-responsive submit-server portfolio-img" src={require( "../images/submit-server.png") } />
                             <p className="project-text">
-                                Overall, this was one of the most challenging projects in my undergraduate career and definitely made me a stronger developer. The above is a screenshot of various submission trials for the project, where red bars denote failing tests and green bars denote passing tests. This project made me a stronger debugger as well. Some notable debugging skills I refined were <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging" class="peds-link"><i>rubber ducking</i></a> and becoming proficient with the eclipse debugger, which was invaluable while tracing through multiple recursive calls on the call stack to find a bug.   
+                                Overall, this was one of the most challenging projects in my undergraduate career and definitely made me a stronger developer. The above is a screenshot of various submission trials for the project, where red bars denote failing tests and green bars denote passing tests. This project made me a stronger debugger as well. Some notable debugging skills I refined were <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging" className="peds-link"><i>rubber ducking</i></a> and becoming proficient with the eclipse debugger, which was invaluable while tracing through multiple recursive calls on the call stack to find a bug.   
                             </p>
 
                             <p className="project-text">
@@ -53,7 +53,7 @@ class Meeshquest extends Component {
                             </ul> 
                             <br/>
                             <br />
-			                <a className="btn-lg btn-project" href="https://wiki.cs.umd.edu/cmsc420/index.php?title=MeeshQuest" target="_blank"><i class="fa fa-link"></i> View project wiki</a>
+			                <a className="btn-lg btn-project" href="https://wiki.cs.umd.edu/cmsc420/index.php?title=MeeshQuest" target="_blank"><i className="fa fa-link"></i> View project wiki</a>
                         </div>
                     </div>
                 </div>

@@ -27,14 +27,6 @@ class Home extends Component {
     );
   }
 
-  componentDidMount = () => {
-    // $('.welcome_video_area').c47bg({
-    //     type: 'youtube',
-    //     container: 'div',
-    //     source: 'EfTUpvxEbqc'
-    // });
-  };
-
   renderNavbar = () => {
     return <NavBarHome />;
   };
