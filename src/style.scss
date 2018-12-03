@@ -221,6 +221,19 @@ cite {
   width: 500px;
 }
 
+.datascience-main {
+  height: 360px;
+}
+
+.vuepeer-main {
+  width: 100%;
+}
+
+.vuepeer-img {
+  height: 360px;
+  width: 80%;
+}
+
 .quadtree {
   height: 360px;
 }
@@ -244,6 +257,22 @@ cite {
   background-color: #1ebba3;
   color: #FFFFFF;
   padding: 12px;
+}
+
+.github-btn {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  padding: 12px;
+}
+
+.block-item {
+  display: block;
+  width: 180px;
+}
+
+.space-above-and-below {
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 
 .portfolio-img {

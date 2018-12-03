@@ -3,6 +3,8 @@ import '../css/font-awesome.min.css';
 import '../css/flaticon.css';
 import '../css/plugins.css';
 import '../style.scss';
+import NavBarWork from './navbar_work';
+import Footer from './footer';
 
 class Meeshquest extends Component {
     render() {
@@ -61,87 +63,11 @@ class Meeshquest extends Component {
     }
     
     renderNavbar = () => {
-        return (
-        <header id="header" className="site_header">
-            <div id="sticky_header" className="show-page-header">
-            <div className="site_navigation">
-                <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-12">
-                            <nav className="navbar navbar-expand-lg navigation_area">
-                                <a className="navbar-brand site_logo" href="index.html">
-                                    <span>Abhas</span>Arya
-                                </a>
-                                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span className="navbar-toggler-icon"></span>
-                                </button>
-                                <div className="collapse navbar-collapse mainmenu_area" id="navbarNav">
-                                    <ul className="navbar-nav mainmenu">
-                                        <li className="nav-item">
-                                            <a className="nav-link smoot_scroll dots_effect active" href="#home" data-scroll-nav="0">Home <span className="dot_effect dot_hover"></span></a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link smoot_scroll dots_effect" href="#about" data-scroll-nav="1">About <span className="dot_effect dot_hover"></span></a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link smoot_scroll dots_effect" href="#work" data-scroll-nav="3">Work <span className="dot_effect dot_hover"></span></a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link smoot_scroll dots_effect" href="#blog" data-scroll-nav="5">blog <span className="dot_effect dot_hover"></span></a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link smoot_scroll dots_effect" href="#">Résumé <span className="dot_effect dot_hover"></span></a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link smoot_scroll dots_effect" href="#">contact <span className="dot_effect dot_hover"></span></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </header>  
-        );
+        return <NavBarWork/>;
     };
 
     renderFooter = () => {
-        return (
-            <footer id="footer" className="footer section_scroll">
-            <div className="footer-widgets-area ptb-80">
-                <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-lg-7">
-                            <div className="footer_description text-center">
-                                <a className="footer_logo site_logo" href="index.html"><span>Abhas</span>Arya</a>
-                                <ul className="footer_social_share">
-                                    <li><a href="#"><i className="fa fa-github"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-envelope"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-stack-overflow"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            
-            <div className="footer-bottom-area text-center">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <div className="copyright">
-                                <p className="footer-caption">Made with <span className="fa fa-heart"></span> by Abhas</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        );
+        return <Footer/>;
     };
 }
 

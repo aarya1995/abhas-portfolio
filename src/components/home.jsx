@@ -4,6 +4,8 @@ import '../css/flaticon.css';
 import '../css/plugins.css';
 import '../style.scss';
 import ProfilePic from '../images/profile_pic.jpeg';
+import NavBarHome from './navbar_home';
+import Footer from './footer';
 
 class Home extends Component {
   render() {
@@ -34,51 +36,7 @@ class Home extends Component {
   };
 
   renderNavbar = () => {
-    return (
-    <div>
-    <header id="header" className="site_header">
-        <div className="site_navigation">
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="col-12">
-                        <nav className="navbar navbar-expand-lg navigation_area">
-                            <a className="navbar-brand site_logo" href="index.html">
-                                <span>Abhas</span>Arya
-                            </a>
-                            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span className="navbar-toggler-icon"></span>
-                            </button>
-                            <div className="collapse navbar-collapse mainmenu_area" id="navbarNav">
-                                <ul className="navbar-nav mainmenu">
-                                    <li className="nav-item">
-                                        <a className="nav-link smoot_scroll dots_effect active" href="#home" data-scroll-nav="0">Home <span className="dot_effect dot_hover"></span></a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link smoot_scroll dots_effect" href="#about" data-scroll-nav="1">About <span className="dot_effect dot_hover"></span></a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link smoot_scroll dots_effect" href="#work" data-scroll-nav="3">Work <span className="dot_effect dot_hover"></span></a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link smoot_scroll dots_effect" href="#blog" data-scroll-nav="5">blog <span className="dot_effect dot_hover"></span></a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link smoot_scroll dots_effect" href="#">Résumé <span className="dot_effect dot_hover"></span></a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link smoot_scroll dots_effect" href="#">contact <span className="dot_effect dot_hover"></span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>  
-    <div id="sticky_header" className="sticky_header_home"></div>
-    </div>
-    );
+    return <NavBarHome />;
   };
 
   renderHeader = () => {
@@ -109,10 +67,10 @@ class Home extends Component {
                                     <li>Product Thinker</li>
                                 </ul>
                                 <ul className="header_social_share">
-                                    <li><a href="#"><i className="fa fa-github"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-envelope"></i></a></li>
-                                    <li><a href="#"><i className="fa fa-stack-overflow"></i></a></li>
+                                    <li><a href="https://github.com/aarya1995"><i className="fa fa-github"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/abhas-arya-b656ba148/"><i className="fa fa-linkedin"></i></a></li>
+                                    <li><a href="mailto:abhas.aryaa@gmail.com"><i className="fa fa-envelope"></i></a></li>
+                                    <li><a href="https://stackoverflow.com/users/3919906/abhas-arya"><i className="fa fa-stack-overflow"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -195,6 +153,7 @@ class Home extends Component {
                 </div>
                 <div className="row portfolio-row">
                     <div className="col-md-6 portfolio-col">
+                            <a href="/nextdoor">
                             <div className="portfolio-item-container">
                                 <div className="work_thumb portfolio-item nextdoor work_item">
                                     <div className="work_hover_mask">
@@ -210,6 +169,7 @@ class Home extends Component {
                                     <p>@ Nextdoor 2018</p>
                                 </span>
                             </div>
+                            </a>
                     </div>
                     <div className="col-md-6 portfolio-col">
                             <a href="/meeshquest">
@@ -234,6 +194,7 @@ class Home extends Component {
 
                 <div className="row portfolio-row">
                     <div className="col-md-6 portfolio-col">
+                            <a href="/datascience">
                             <div className="portfolio-item-container">
                                 <div className="work_thumb portfolio-item imdb work_item">
                                     <div className="work_hover_mask">
@@ -249,8 +210,10 @@ class Home extends Component {
                                     <p>Data science project 2017</p>
                                 </span>
                             </div>
+                            </a>
                     </div>
                     <div className="col-md-6 portfolio-col">
+                            <a href="/vuepeer">
                             <div className="portfolio-item-container">
                                 <div className="work_thumb portfolio-item vuepeer work_item">
                                     <div className="work_hover_mask">
@@ -266,11 +229,13 @@ class Home extends Component {
                                     <p>Search engine for finding peer-to-peer rentals 2016</p>
                                 </span>
                             </div>
+                            </a>
                     </div>
                 </div>
                 
                 <div className="row portfolio-row">
                     <div className="col-md-6 portfolio-col">
+                            <a href="/peds">
                             <div className="portfolio-item-container">
                                 <div className="work_thumb portfolio-item peds work_item">
                                     <div className="work_hover_mask">
@@ -286,8 +251,10 @@ class Home extends Component {
                                     <p>Presidential Election Database System 2016</p>
                                 </span>
                             </div>
+                            </a>
                     </div>
                     <div className="col-md-6 portfolio-col">
+                            <a href="/flutter">
                             <div className="portfolio-item-container">
                                 <div className="work_thumb portfolio-item flutter work_item">
                                     <div className="work_hover_mask">
@@ -303,11 +270,13 @@ class Home extends Component {
                                     <p>Inventory management system 2017</p>
                                 </span>
                             </div>
+                            </a>
                     </div>
                 </div>
 
                 <div className="row portfolio-row">
                     <div className="col-md-6 portfolio-col">
+                            <a href="/aqua">
                             <div className="portfolio-item-container">
                                 <div className="work_thumb portfolio-item aqua work_item">
                                     <div className="work_hover_mask">
@@ -323,8 +292,10 @@ class Home extends Component {
                                     <p>Hotel management software 2017</p>
                                 </span>
                             </div>
+                            </a>
                     </div>
                     <div className="col-md-6 portfolio-col">
+                            <a href="/wecook">
                             <div className="portfolio-item-container">
                                 <div className="work_thumb portfolio-item wecook work_item">
                                     <div className="work_hover_mask">
@@ -340,11 +311,13 @@ class Home extends Component {
                                     <p>CTO/Co-Founder 2015</p>
                                 </span>
                             </div>
+                            </a>
                     </div>
                 </div>
 
                 <div className="row portfolio-row">
                     <div className="col-md-6 portfolio-col">
+                            <a href="/telenix">
                             <div className="portfolio-item-container">
                                 <div className="work_thumb portfolio-item telenix work_item">
                                     <div className="work_hover_mask">
@@ -360,8 +333,10 @@ class Home extends Component {
                                     <p>Integrated job application and monitoring tools 2015</p>
                                 </span>
                             </div>
+                            </a>
                     </div>
                     <div className="col-md-6 portfolio-col">
+                            <a href="/kwiknews">
                             <div className="portfolio-item-container">
                                 <div className="work_thumb portfolio-item kwiknews work_item">
                                     <div className="work_hover_mask">
@@ -377,11 +352,13 @@ class Home extends Component {
                                     <p>RSS reader/aggregator to discover interesting news 2014</p>
                                 </span>
                             </div>
+                            </a>
                     </div>
                 </div>
 
                 <div className="row portfolio-row">
                     <div className="col-md-6 portfolio-col">
+                            <a href="https://www.hirekeep.com">
                             <div className="portfolio-item-container">
                                 <div className="work_thumb portfolio-item hirekeep work_item">
                                     <div className="work_hover_mask">
@@ -397,8 +374,10 @@ class Home extends Component {
                                     <p>matching sales candidates with companies 2015</p>
                                 </span>
                             </div>
+                            </a>
                     </div>
                     <div className="col-md-6 portfolio-col">
+                            <a href="https://aqueous-badlands-1659.herokuapp.com/">
                             <div className="portfolio-item-container">
                                 <div className="work_thumb portfolio-item fitness44 work_item">
                                     <div className="work_hover_mask">
@@ -414,6 +393,7 @@ class Home extends Component {
                                     <p>Fitness consulting services 2015</p>
                                 </span>
                             </div>
+                            </a>
                     </div>
                 </div>
             </div>
@@ -534,40 +514,7 @@ class Home extends Component {
   };
 
   renderFooter = () => {
-    return (
-        <footer id="footer" className="footer section_scroll">
-        <div className="footer-widgets-area ptb-80">
-            <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col-lg-7">
-                        <div className="footer_description text-center">
-                            <a className="footer_logo site_logo" href="index.html"><span>Abhas</span>Arya</a>
-                            <ul className="footer_social_share">
-                                <li><a href="#"><i className="fa fa-github"></i></a></li>
-                                <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i className="fa fa-envelope"></i></a></li>
-                                <li><a href="#"><i className="fa fa-stack-overflow"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        
-        <div className="footer-bottom-area text-center">
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-12">
-                        <div className="copyright">
-                            <p className="footer-caption">Made with <span className="fa fa-heart"></span> by Abhas</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    );
+    return <Footer />;
   };
 }
 
